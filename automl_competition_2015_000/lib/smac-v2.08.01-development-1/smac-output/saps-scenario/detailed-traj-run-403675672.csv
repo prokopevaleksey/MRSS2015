@@ -1,0 +1,4 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Full Configuration","Predicted Performance (if available)",
+"0.0"," 1.7976931348623157E308","0.0","1","0.0", " alpha='1.189', ps='0.1', rho='0.5', wp='0.03'","NaN"
+"1.940995617"," 1.6","2.221","1","0.34143912200000015", " alpha='1.189', ps='0.1', rho='0.5', wp='0.03'","NaN"
+"2.767010463"," 1.12","171.776","1","0.5277771849999999", " alpha='1.189', ps='0.1', rho='0.5', wp='0.03'","NaN"

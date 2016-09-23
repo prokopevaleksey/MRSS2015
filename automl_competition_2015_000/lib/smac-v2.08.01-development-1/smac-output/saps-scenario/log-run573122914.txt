@@ -1,0 +1,507 @@
+15:37:29.592 [main] INFO  c.u.c.b.a.l.ComplexLoggingOptions - Logging to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/log-run573122914.txt
+15:37:29.621 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Algorithm Execution & Abstraction Toolkit is v2.08.01dev-development-5 (69633ad02287) 
+15:37:29.621 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Java Runtime Environment is OpenJDK 64-Bit Server VM (1.7.0_65) 
+15:37:29.621 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of OS is Linux 3.13.0-24-generic (amd64) 
+15:37:29.621 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of Random Forest Library is v1.05.01dev-development-1 (09a591cc9348) 
+15:37:29.621 [main] INFO  c.u.c.b.a.m.version.VersionTracker - Version of SMAC is v2.08.01dev-master-0 (217d25a4724f) 
+15:37:29.622 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - Call String: smac --scenario ./example_scenarios/saps/saps-scenario.txt --initialChallengers "-alpha 1 -rho 1 -ps 0.1 -wp 0.00" --initialChallengers "-alpha 1 -rho 1 -ps 0.1 -wp 0.01" --initialChallengers "-alpha 1 -rho 1 -ps 0.1 -wp 0.02" --initialChallengers "-alpha 1 -rho 1 -ps 0.1 -wp 0.03" --initialChallengers "-alpha 1 -rho 1 -ps 0.1 -wp 0.01" 
+15:37:29.623 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ********** The next bit of output can be ignored, it is merely useful for debugging **********
+15:37:29.623 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========Enviroment Variables===========
+CLUTTER_IM_MODULE=xim
+COMPIZ_BIN_PATH=/usr/bin/
+COMPIZ_CONFIG_PROFILE=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-2GSdttyv4A
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DESKTOP_SESSION=ubuntu
+DISPLAY=:0
+GDMSESSION=ubuntu
+GDM_LANG=en_US
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/eclipse.desktop
+GIO_LAUNCHED_DESKTOP_FILE_PID=16981
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_KEYRING_CONTROL=/run/user/10328/keyring-zPiSK6
+GNOME_KEYRING_PID=783
+GPG_AGENT_INFO=/run/user/10328/keyring-zPiSK6/gpg:0:1
+GTK_IM_MODULE=ibus
+GTK_MODULES=overlay-scrollbar:unity-gtk-module
+HOME=/home/feurerm
+IM_CONFIG_PHASE=1
+INSTANCE=
+JOB=dbus
+LANG=en_US.UTF-8
+LANGUAGE=en_US
+LC_ADDRESS=de_DE.UTF-8
+LC_IDENTIFICATION=de_DE.UTF-8
+LC_MEASUREMENT=de_DE.UTF-8
+LC_MONETARY=de_DE.UTF-8
+LC_NAME=de_DE.UTF-8
+LC_NUMERIC=de_DE.UTF-8
+LC_PAPER=de_DE.UTF-8
+LC_TELEPHONE=de_DE.UTF-8
+LC_TIME=de_DE.UTF-8
+LOGNAME=feurerm
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PWD=/home/feurerm
+QT4_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+SELINUX_INIT=YES
+SESSION=ubuntu
+SESSIONTYPE=gnome-session
+SESSION_MANAGER=local/aadpool4:@/tmp/.ICE-unix/925,unix/aadpool4:/tmp/.ICE-unix/925
+SHELL=/bin/bash
+SSH_AUTH_SOCK=/run/user/10328/keyring-zPiSK6/ssh
+TEXTDOMAIN=im-config
+TEXTDOMAINDIR=/usr/share/locale/
+UBUNTU_MENUPROXY=1
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/10328/785
+USER=feurerm
+XAUTHORITY=/home/feurerm/.Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XDG_CURRENT_DESKTOP=Unity
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/feurerm
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/10328
+XDG_SEAT=seat0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_ID=c1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session2
+XDG_VTNR=7
+XMODIFIERS=@im=ibus
+
+15:37:29.623 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - Hostname:aadpool4
+15:37:29.623 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - ==========System Properties==============
+ERRLOG=/home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/log-err573122914.txt
+NUMRUN=573122914
+OUTPUTDIR=/home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario
+ROOT-LEVEL=INFO
+RUNLOG=/home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/log-run573122914.txt
+STDOUT-LEVEL=INFO
+WARNLOG=/home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/log-warn573122914.txt
+awt.toolkit=sun.awt.X11.XToolkit
+file.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/home/feurerm/workspace/SMAC/bin:/home/feurerm/workspace/SMAC/lib/commons-math-2.2/commons-math-2.2-sources.jar:/home/feurerm/workspace/SMAC/lib/commons-math-2.2/commons-math-2.2.jar:/home/feurerm/workspace/SMAC/lib/Jama-1.0.2.jar:/home/feurerm/workspace/SMAC/lib/commons-collections-3.2.1.jar:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.3.0.jar:/home/feurerm/workspace/RandomForests/bin:/home/feurerm/workspace/AEATK/bin:/home/feurerm/workspace/AEATK/lib/commons-collections-3.2.1.jar:/home/feurerm/workspace/AEATK/lib/commons-math-2.2.jar:/home/feurerm/workspace/AEATK/lib/opencsv-2.3.jar:/home/feurerm/workspace/AEATK/lib/spi-0.2.4.jar:/home/feurerm/workspace/AEATK/lib/jcip-annotations.jar:/home/feurerm/workspace/AEATK/lib/Jama-1.0.2.jar:/home/feurerm/workspace/AEATK/lib/numerics4j-1.3.jar:/home/feurerm/workspace/AEATK/lib/guava-14.0.1.jar:/home/feurerm/workspace/AEATK/lib/exp4j-0.3.10.jar:/home/feurerm/workspace/AEATK/lib/commons-io-2.1.jar:/home/feurerm/workspace/AEATK/lib/slf4j-api-1.7.5.jar:/home/feurerm/workspace/AEATK/lib/jackson-annotations-2.3.1.jar:/home/feurerm/workspace/AEATK/lib/jackson-core-2.3.1.jar:/home/feurerm/workspace/AEATK/lib/jackson-databind-2.3.1.jar:/home/feurerm/workspace/AEATK/lib/logback-access-1.1.2.jar:/home/feurerm/workspace/AEATK/lib/logback-classic-1.1.2.jar:/home/feurerm/workspace/AEATK/lib/logback-core-1.1.2.jar:/home/feurerm/workspace/AEATK/lib/jcommander.jar:/home/feurerm/workspace/AEATK/lib/commons-math3-3.3.jar:/home/feurerm/workspace/SMAC/testlib/testng-6.8.jar
+java.class.version=51.0
+java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+java.io.tmpdir=/tmp
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+java.runtime.name=OpenJDK Runtime Environment
+java.runtime.version=1.7.0_65-b32
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_65
+java.vm.info=mixed mode
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.65-b04
+line.separator=
+
+logback.configurationFile=ca/ubc/cs/beta/aeatk/logging/complex-logback.xml
+os.arch=amd64
+os.name=Linux
+os.version=3.13.0-24-generic
+path.separator=:
+sun.arch.data.model=64
+sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.desktop=gnome
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=ca.ubc.cs.beta.smac.executors.SMACExecutor --scenario ./example_scenarios/saps/saps-scenario.txt --initialChallengers -alpha 1 -rho 1 -ps 0.1 -wp 0.00 --initialChallengers -alpha 1 -rho 1 -ps 0.1 -wp 0.01 --initialChallengers -alpha 1 -rho 1 -ps 0.1 -wp 0.02 --initialChallengers -alpha 1 -rho 1 -ps 0.1 -wp 0.03 --initialChallengers -alpha 1 -rho 1 -ps 0.1 -wp 0.01
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=UTF-8
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/home/feurerm/workspace/SMAC/deployables
+user.home=/home/feurerm
+user.language=en
+user.name=feurerm
+user.timezone=Europe/Berlin
+
+15:37:29.691 [main] INFO  c.u.c.b.a.m.j.JCommanderHelper - ==========Configuration Options==========
+[SMACOptions]
+ adaptiveCapping = true
+ alwaysRunInitialConfiguration = false
+ capAddSlack = 1.0
+ capSlack = 1.3
+classicInitModeOpts = [ClassicInitializationProcedureOptions]
+		 initialIncumbentRuns = 1
+
+dciModeOpts = [DoublingCappingInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+
+ucip = [UnbiasChallengerInitializationProcedureOptions]
+		 numberOfChallengers = 2
+		 numberOfRunsPerChallenger = 2
+		 cpulimit = 0
+
+ deterministicInstanceOrdering = false
+ doValidation = true
+ execMode = SMAC
+ experimentDir = /home/feurerm/workspace/SMAC/deployables/
+ expFunc = null
+help = [HelpOptions]
+		 showHiddenParameters = false
+		 showHelp = false
+		 helpLevel = BASIC
+		 showVersion = false
+		 helpDefaults = /home/feurerm/.aeatk/help.opt
+
+ initialChallengeRuns = 1
+ initialIncumbent = DEFAULT
+ initializationMode = CLASSIC
+ intensificationPercentage = 0.5
+ initialChallengers = [-alpha 1 -rho 1 -ps 0.1 -wp 0.00, -alpha 1 -rho 1 -ps 0.1 -wp 0.01, -alpha 1 -rho 1 -ps 0.1 -wp 0.02, -alpha 1 -rho 1 -ps 0.1 -wp 0.03, -alpha 1 -rho 1 -ps 0.1 -wp 0.01]
+ initialChallengersIntensificationTime = 2147483647
+ iterativeCappingBreakOnFirstCompletion = false
+ iterativeCappingK = 1
+logOptions = [ComplexLoggingOptions]
+		 consoleLogLevel = INFO
+		 logLevel = INFO
+
+ maxIncumbentRuns = 2000
+mbOptions = [ModelBuildingOptions]
+		 maskCensoredDataAsKappaMax = false
+		 maskInactiveConditionalParametersAsDefaultValue = true
+		 maskCensoredDataAsUncensored = false
+		 imputationIterations = 2
+
+ modelHashCodeFile = null
+ numberOfChallengers = 10
+ numberOfRandomConfigsInEI = 10000
+ numPCA = 7
+ optionFile = null
+ optionFile2 = null
+randomForestOptions = [RandomForestOptions]
+		 brokenVarianceCalculation = false
+		 freeMemoryPercentageToSubsample = 0.25
+		 fullTreeBootstrap = false
+		 ignoreConditionality = false
+		 imputeMean = false
+		 logModel = true
+		 minVariance = 1.0E-14
+		 numTrees = 10
+		 penalizeImputedValues = false
+		 preprocessMarginal = true
+		 ratioFeatures = 0.8333333333333334
+		 shuffleImputedValues = false
+		 splitMin = 10
+		 storeDataInLeaves = false
+		 subsamplePercentage = 0.9
+		 subsampleValuesWhenLowMemory = false
+
+runGroupOptions = [RunGroupOptions]
+		 runGroupName = %SCENARIO_NAME
+		 runGroupExit = false
+		 replacementChar = %
+
+scenarioConfig = [ScenarioOptions]
+		 _runObj = RUNTIME
+		 intraInstanceObj = MEAN
+		 interInstanceObj = MEAN
+		limitOptions = [TerminationCriteriaOptions]
+				 tunerTimeout = 30
+				 numIterations = 2147483647
+				 runtimeLimit = 2147483647
+				 totalNumRunsLimit = 9223372036854775807
+				 countSMACTimeAsTunerTime = true
+				 challengeIncumbentAttempts = 1000
+				 fileToWatch = null
+
+		instanceOptions = [ProblemInstanceOptions]
+				 instanceFile = example_scenarios/saps/instances-train.txt
+				 instanceFeatureFile = null
+				 testInstanceFile = example_scenarios/saps/instances-test.txt
+				 checkInstanceFilesExist = false
+				 useInstances = true
+				 instanceSuffix = null
+				 testInstanceSuffix = null
+				 ignoreFeatures = false
+
+		 scenarioFile = /home/feurerm/workspace/SMAC/deployables/./example_scenarios/saps/saps-scenario.txt
+		 outputDirectory = /home/feurerm/workspace/SMAC/deployables/smac-output
+		 invalidScenarioReason = null
+		algoExecOptions = [AlgorithmExecutionOptions]
+				 algoExec = ruby saps_wrapper.rb
+				 algoExecDir = example_scenarios/saps/
+				 deterministic = false
+				 cutoffTime = 5.0
+				 cutoffLength = 1.7976931348623157E308
+				 additionalContext = {}
+				taeOpts = [TargetAlgorithmEvaluatorOptions]
+						 targetAlgorithmEvaluator = CLI
+						 abortOnCrash = false
+						 abortOnFirstRunCrash = true
+						 retryCount = 0
+						 cacheRuns = false
+						 cacheDebug = false
+						 useDynamicCappingExclusively = false
+						 reportStrictlyIncreasingRuntimes = false
+						 boundRuns = false
+						 maxConcurrentAlgoExecs = 1
+						 exitOnFailure = false
+						 runHashCodeFile = null
+						 leakMemory = false
+						 leakMemoryAmount = 1024
+						 verifySAT = null
+						 checkSATConsistency = true
+						 checkSATConsistencyException = true
+						 callObserverBeforeCompletion = true
+						prePostOptions = [PrePostCommandOptions]
+								 preCommand = null
+								 postCommand = null
+								 exceptionOnError = false
+								 logOutput = true
+								 directory = /home/feurerm/workspace/SMAC/deployables/.
+
+						 checkResultOrderConsistent = false
+						 skipOutstandingEvaluationsTAE = false
+						 logRequestResponses = false
+						 logRequestResponsesRCOnly = false
+						 trackRunsScheduled = false
+						 trackRunsScheduledResolution = 1.0
+						 uncleanShutdownCheck = true
+						 killCaptimeExceedingRun = true
+						 killCaptimeExceedingRunFactor = 10.0
+						 checkRunConfigsUnique = true
+						 checkRunConfigsUniqueException = true
+						 observeWalltimeIfNoRuntime = true
+						 observeWalltimeScale = 0.95
+						 observeWalltimeDelay = 5.0
+						 synchronousObserver = true
+						 taeDefaults = /home/feurerm/.aeatk/tae.opt
+						ttaedo = [TransformTargetAlgorithmEvaluatorDecoratorOptions]
+								 transform = false
+								 transformValidValuesOnly = true
+								 SAT_runtime_transform = R
+								 SAT_quality_transform = Q
+								 UNSAT_runtime_transform = R
+								 UNSAT_quality_transform = Q
+								 TIMEOUT_runtime_transform = R
+								 TIMEOUT_quality_transform = Q
+								 other_runtime_transform = R
+								 other_quality_transform = Q
+
+						tForkOptions = [ForkingTargetAlgorithmEvaluatorDecoratorOptions]
+								 forkToTAE = null
+								fPolicyOptions = [ForkingTargetAlgorithmEvaluatorDecoratorPolicyOptions]
+										 fPolicy = null
+										 duplicateOnSlaveQuickTimeout = 5
+
+
+						 fileToWatch = null
+						 warnIfNoResponseFromTAE = 120
+						 taeStopProcessingOnShutdown = true
+						 filecache = false
+						 fileCacheSource = null
+						 fileCacheOutput = null
+						 fileCacheCrashOnMiss = false
+						 transformCrashedQuality = true
+						 transformCrashedQualityValue = 1.0E9
+
+				paramFileDelegate = [ParamConfigurationSpaceOptions]
+						 paramFile = example_scenarios/saps/saps-params.pcs
+						 searchSubspace = null
+						 searchSubspaceFile = null
+						 continuousNeighbours = 4
+
+
+
+seedOptions = [SeedOptions]
+		 seedOffset = 0
+		 numRun = 573122914
+		 initialSeedMap = {}
+
+ smacDefaults = /home/feurerm/.aeatk/smac.opt
+stateOpts = [StateFactoryOptions]
+		 stateSerializer = LEGACY
+		 statedeSerializer = LEGACY
+		 restoreStateFrom = null
+		 restoreIteration = null
+		 restoreScenario = null
+		 cleanOldStatesOnSuccess = true
+		 saveContextWithState = true
+
+trackingOptions = [ParamConfigurationOriginTrackingOptions]
+		 configTracking = false
+
+validationOptions = [ValidationOptions]
+		 maxTimestamp = -1.0
+		 minTimestamp = 0.0
+		 multFactor = 2.0
+		 numberOfTestInstances = 2147483647
+		 numberOfTestSeedsPerInstance = 1000
+		 numberOfValidationRuns = 1
+		 outputFileSuffix = 
+		 saveStateFile = false
+		 useWallClockTime = true
+		 validateAll = false
+		 validateOnlyIfTunerTimeReached = 0.0
+		 validateOnlyIfWallTimeReached = 0.0
+		 validateOnlyLastIncumbent = true
+		 validationHeaders = true
+		 validationRoundingMode = UP
+
+warmStartOptions = [WarmStartOptions]
+		 warmStartStateFrom = null
+		 restoreIteration = 2147483647
+
+ validationSeed = 0
+ saveRunsEveryIteration = false
+ stateQuickSaves = true
+ shutdownTAEWhenDone = true
+ validationCores = null
+ shareModelMode = false
+ shareRunDataFrequency = 300
+ shareModeModeTAE = true
+
+[AnalyticTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ cores = 0
+ observerFrequency = 100
+ func = CAMELBACK
+ scaleDelay = 1.0
+
+[BlackHoleTargetAlgorithmEvaluatorOptions]
+ warnings = true
+
+[CommandLineTargetAlgorithmEvaluatorOptions]
+ observerFrequency = 500
+ concurrentExecution = true
+ cores = 1
+ logAllCallStrings = false
+ logAllResultLines = false
+ logAllCallsAndResultLines = false
+ logAllProcessOutput = false
+ listenForUpdates = true
+ paramArgumentsContainQuotes = false
+ pgEnvKillCommand = null
+ pgNiceKillCommand = bash -c "kill -s TERM -%pid"
+ pgForceKillCommand = bash -c "kill -s KILL -%pid"
+ procNiceKillCommand = kill -s TERM %pid
+ procForceKillCommand = kill -s KILL %pid
+ smacDefaults = /home/feurerm/.aeatk/cli-tae.opt
+
+[ConstantTargetAlgorithmEvaluatorOptions]
+ runResult = SAT
+ runtime = 1.0
+ quality = 0.0
+ runlength = 0.0
+ additionalRunData = 
+
+[IPCTargetAlgorithmEvaluatorOptions]
+ persistent = false
+ ipcMechanism = UDP
+ encodingMechanism = CALL_STRING
+ remoteHost = 127.0.0.1
+ remotePort = 5050
+ udpPacketSize = 4096
+ localPort = 0
+ execScript = null
+ execScriptOutput = false
+ poolConnections = false
+ ipcDefaults = /home/feurerm/.aeatk/ipc-tae.opt
+ asyncThreads = 5
+
+[EchoTargetAlgorithmEvaluatorOptions]
+ quickEval = true
+
+[PreloadedResponseTargetAlgorithmEvaluatorOptions]
+ preloadedResponses = 
+ runLength = -1.0
+ quality = 0.0
+ additionalRunData = 
+
+[RandomResponseTargetAlgorithmEvaluatorOptions]
+ simulateDelay = false
+ additionalRunData = 
+ cores = 0
+ maxResponse = 10.0
+ minResponse = 0.0
+ observerFrequency = 500
+ trendCoefficient = 0.0
+ seed = 1421159848769
+ persistent = false
+ scaleDelay = 1.0
+
+
+15:37:29.811 [main] INFO  c.u.cs.beta.smac.builder.SMACBuilder - Specified 5 initial challengers.
+15:37:30.135 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - SMAC started at: Jan 13, 2015 3:37:30 PM. Minimizing mean runtime.
+15:37:32.392 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - First incumbent: config 1 (internal ID: 0x001C), with mean runtime: 1.4; estimate based on 1 runs.
+15:37:32.393 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 1 (internal ID: 0x001C): 
+cd /home/feurerm/workspace/SMAC/deployables/example_scenarios/saps; ruby saps_wrapper.rb instances/train/SWlin2006.10286.cnf 0 5.0 2147483647 8798324 -alpha '1.189' -ps '0.1' -rho '0.5' -wp '0.03'  
+15:37:57.954 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 7 (internal ID: 0x76E2), with mean runtime: 0.254; estimate based on 8 runs.
+15:37:57.955 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 7 (internal ID: 0x76E2): 
+cd /home/feurerm/workspace/SMAC/deployables/example_scenarios/saps; ruby saps_wrapper.rb instances/train/SWlin2006.2705.cnf 0 5.0 2147483647 11946046 -alpha '1.0898486687548863' -ps '0.023030479907182013' -rho '0.010140740502193935' -wp '0.010605903787625357'  
+15:37:59.442 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Incumbent changed to: config 8 (internal ID: 0xA89C), with mean runtime: 0.026000000000000002; estimate based on 9 runs.
+15:37:59.443 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Sample call for new incumbent config 8 (internal ID: 0xA89C): 
+cd /home/feurerm/workspace/SMAC/deployables/example_scenarios/saps; ruby saps_wrapper.rb instances/train/SWlin2006.10286.cnf 0 5.0 2147483647 14899595 -alpha '1.1808005508512793' -ps '0.03075531729114618' -rho '0.0038704859783526002' -wp '0.016225017700471998'  
+15:38:00.069 [main] INFO  c.u.c.b.s.c.SequentialModelBasedAlgorithmConfiguration - Updated estimated mean runtime of the same incumbent: 0.062000000000000006; estimate now based on 10 runs.
+15:38:08.335 [main] INFO  c.u.c.b.a.e.h.LogRuntimeStatistics - *****Developer Statistics*****
+ Count: 6
+ Incumbent ID: 8 (internal ID:0xA89C)
+ Number of PISPs for Incumbent: 16
+ Number of Instances for Incumbent: 5
+ Number of Configurations Run: 13
+ Performance of the Incumbent: 0.068
+ Configuration Time Budget used: 31.00 s (103%)
+ Configuration Time Budget remaining: -1.00 s
+ Wall-clock Time Budget used: 38.26 s (0%)
+ Wall-clock Time Budget remaining: 2.15E9 s
+ Algorithm Runs used: 54.00  (0%)
+ Algorithm Runs remaining: 9.22E18 
+ Model/Iteration used: 5.00  (0%)
+ Model/Iteration remaining: 2.15E9 
+ Sum of Target Algorithm Execution Times (treating minimum value as 0.1): 29.420 s
+ CPU time of Configurator: 1.580 s
+ User time of Configurator: 1.579 s
+ Outstanding Runs on Target Algorithm Evaluator: 0
+ Outstanding Requests on Target Algorithm Evaluator: 0
+ Total Reported Algorithm Runtime: 26.680 s
+ Sum of Measured Wallclock Runtime: 34.962 s
+ Max Memory: 3543 MB
+ Total Java Memory: 239 MB
+ Free Java Memory: 184 MB
+ * PISP count is roughly the number of runs, but doesn't included redundant runs on the same problem instance & seed
+15:38:08.337 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - 
+=======================================================================================
+SMAC has finished. Reason: total CPU time limit (30.0 s) has been reached.   
+Total number of runs performed: 54, total configurations tried: 13.
+Total CPU time used: 31 s, total wallclock time used: 38 s.
+SMAC's final incumbent: config 8 (internal ID: 0xA89C), with estimated mean runtime: 0.06833333333333333, based on 16 run(s) on 5 training instance(s).
+Sample call for this final incumbent:
+cd /home/feurerm/workspace/SMAC/deployables/example_scenarios/saps; ruby saps_wrapper.rb instances/train/SWlin2006.10286.cnf 0 5.0 2147483647 14899595 -alpha '1.1808005508512793' -ps '0.03075531729114618' -rho '0.0038704859783526002' -wp '0.016225017700471998'
+=======================================================================================
+15:38:08.337 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - Now starting offline validation.
+15:38:08.353 [main] INFO  c.u.c.beta.smac.validation.Validator - Validation needs 5 algorithm runs to validate 1 configurations found, each on 5 problem instance seed pairs
+15:38:08.353 [main] INFO  c.u.c.beta.smac.validation.Validator - Validation start time: Jan 13, 2015 3:38:08 PM. Approximate worst-case end time: Jan 13, 2015 3:38:35 PM
+15:38:09.084 [CLI TAE Callback Threads (60-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation Call Strings written to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/validationCallStrings-traj-run-573122914-walltime.csv
+15:38:09.089 [CLI TAE Callback Threads (60-1)] INFO  c.u.c.beta.smac.validation.Validator - Instance performance (for debug) written to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/validationPerformanceDebug-traj-run-573122914-walltime.csv
+15:38:09.093 [CLI TAE Callback Threads (60-1)] INFO  c.u.c.beta.smac.validation.Validator - Main validation results file written to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/validationResults-traj-run-573122914-walltime.csv
+15:38:09.097 [CLI TAE Callback Threads (60-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation matrix of objectives for cross-product of configurations and (instance,seed) pairs written to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/validationObjectiveMatrix-traj-run-573122914-walltime.csv
+15:38:09.097 [CLI TAE Callback Threads (60-1)] INFO  c.u.c.beta.smac.validation.Validator - Validation matrix of complete run result line for cross-product of configurations and (instance,seed) pairs written to: /home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario/validationRunResultLineMatrix-traj-run-573122914-walltime.csv
+15:38:09.102 [main] INFO  c.u.c.b.smac.executors.SMACExecutor - 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Estimated mean quality of final incumbent config 8 (internal ID: 0xA89C) on test set: 0.028, based on 5 run(s) on 5 test instance(s).
+Sample call for the final incumbent:
+cd /home/feurerm/workspace/SMAC/deployables/example_scenarios/saps; ruby saps_wrapper.rb instances/train/SWlin2006.10286.cnf 0 5.0 2147483647 14899595 -alpha '1.1808005508512793' -ps '0.03075531729114618' -rho '0.0038704859783526002' -wp '0.016225017700471998' 
+Additional information about run 573122914 in:/home/feurerm/workspace/SMAC/deployables/smac-output/saps-scenario
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

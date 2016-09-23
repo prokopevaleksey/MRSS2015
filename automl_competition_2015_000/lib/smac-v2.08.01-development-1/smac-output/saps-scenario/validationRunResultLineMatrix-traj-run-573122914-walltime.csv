@@ -1,0 +1,6 @@
+"Problem Instance","Seed","Run result line of validation config #1"
+"instances/test/SWlin2006.11218.cnf","375162","SAT, 0.02, 42577.0, 0.0, 375162"
+"instances/test/SWlin2006.12713.cnf","12096238","SAT, 0.0, 14953.0, 0.0, 12096238"
+"instances/test/SWlin2006.18830.cnf","8848577","SAT, 0.04, 42759.0, 0.0, 8848577"
+"instances/test/SWlin2006.4166.cnf","14449789","SAT, 0.06, 60510.0, 0.0, 14449789"
+"instances/test/SWlin2006.4435.cnf","2533094","SAT, 0.02, 14572.0, 0.0, 2533094"
