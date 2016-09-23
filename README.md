@@ -4,3 +4,5 @@ this is a messy code for Microsoft Research Summer School 2015 competition http:
 it basically performs meta-learning on anonimized datasets using naive bayes and random forest clasiffiers  
 
 evaluation is suitable for AutoML challenge benchmark
+
+comments on each version are in the folders
